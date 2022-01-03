@@ -1,0 +1,97 @@
+PODS:
+  - Alamofire (5.4.4)
+  - AlamofireImage (4.2.0):
+    - Alamofire (~> 5.4)
+  - AppAuth (1.4.0):
+    - AppAuth/Core (= 1.4.0)
+    - AppAuth/ExternalUserAgent (= 1.4.0)
+  - AppAuth/Core (1.4.0)
+  - AppAuth/ExternalUserAgent (1.4.0)
+  - AppCenter (4.4.1):
+    - AppCenter/Analytics (= 4.4.1)
+    - AppCenter/Crashes (= 4.4.1)
+  - AppCenter/Analytics (4.4.1):
+    - AppCenter/Core
+  - AppCenter/Core (4.4.1)
+  - AppCenter/Crashes (4.4.1):
+    - AppCenter/Core
+  - Bolts/Tasks (1.9.1)
+  - Braintree (4.22.0):
+    - Braintree/Card (= 4.22.0)
+    - Braintree/Core (= 4.22.0)
+    - Braintree/PayPal (= 4.22.0)
+    - Braintree/UI (= 4.22.0)
+  - Braintree/Card (4.22.0):
+    - Braintree/Core
+  - Braintree/Core (4.22.0)
+  - Braintree/PayPal (4.22.0):
+    - Braintree/Core
+    - Braintree/PayPalOneTouch
+  - Braintree/PayPalDataCollector (4.22.0):
+    - Braintree/Core
+    - Braintree/PayPalUtils
+  - Braintree/PayPalOneTouch (4.22.0):
+    - Braintree/Core
+    - Braintree/PayPalDataCollector
+    - Braintree/PayPalUtils
+  - Braintree/PayPalUtils (4.22.0)
+  - Braintree/UI (4.22.0):
+    - Braintree/Card
+    - Braintree/Core
+  - GoogleSignIn (6.0.0):
+    - AppAuth (~> 1.4)
+    - GTMAppAuth (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GTMAppAuth (1.2.2):
+    - AppAuth/Core (~> 1.4)
+    - GTMSessionFetcher/Core (~> 1.5)
+  - GTMSessionFetcher/Core (1.7.0)
+  - Parse (1.19.3):
+    - Parse/Core (= 1.19.3)
+  - Parse/Core (1.19.3):
+    - Bolts/Tasks (= 1.9.1)
+  - SAConfettiView (0.1.8)
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.4)
+  - AlamofireImage (~> 4.2.0)
+  - AppCenter
+  - Braintree (~> 4.22.0)
+  - GoogleSignIn (= 6.0.0)
+  - Parse
+  - SAConfettiView
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireImage
+    - AppAuth
+    - AppCenter
+    - Bolts
+    - Braintree
+    - GoogleSignIn
+    - GTMAppAuth
+    - GTMSessionFetcher
+    - Parse
+    - SAConfettiView
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+  AlamofireImage: 34a2d90b0e5fe6a5605f85ae4b7b01e784c60192
+  AppAuth: 31bcec809a638d7bd2f86ea8a52bd45f6e81e7c7
+  AppCenter: b0b6f1190215b5f983c42934db718f3b46fff3c0
+  Bolts: 8c1e8aab2f603387b8b9924f57d1d64f43d3ffdc
+  Braintree: e814ec196208d3e961c488cf4071de043f399cf9
+  GoogleSignIn: b7779a809e1dfb32ebb43131b10d8bfcd53c1383
+  GTMAppAuth: ad5c2b70b9a8689e1a04033c9369c4915bfcbe89
+  GTMSessionFetcher: 43748f93435c2aa068b1cbe39655aaf600652e91
+  Parse: 0abb63a0ff6fa34a3f64b81d595a294e2ece143a
+  SAConfettiView: c87031a2280659261b730fce3669fb10e73636ee
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: 92daf4d9221155321111d7511620f08b377624ba
+
+COCOAPODS: 1.11.2

@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1029AA072783558B001906ED /* ChangerMdpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1029AA042783558B001906ED /* ChangerMdpView.swift */; };
+		1029AA082783558B001906ED /* MdpOublieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1029AA052783558B001906ED /* MdpOublieView.swift */; };
+		1029AA092783558B001906ED /* ConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1029AA062783558B001906ED /* ConfirmationView.swift */; };
+		10A90248277072B0004D82D5 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A90247277072B0004D82D5 /* Level.swift */; };
+		10A9025E27708B30004D82D5 /* Headers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A9025D27708B30004D82D5 /* Headers.swift */; };
+		10A9026027711D90004D82D5 /* LanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A9025F27711D90004D82D5 /* LanguageViewController.swift */; };
+		10A9026227720C27004D82D5 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A9026127720C27004D82D5 /* SettingsViewController.swift */; };
+		10A9026427721285004D82D5 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A9026327721285004D82D5 /* ImageLoader.swift */; };
+		10BCB4BA2777638800787604 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BCB4B92777638800787604 /* Reachability.swift */; };
+		1332317B2762C5F60057B75D /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1332317A2762C5F60057B75D /* ResetPasswordViewController.swift */; };
+		135423912763A9A300F25873 /* VerifViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135423902763A9A300F25873 /* VerifViewController.swift */; };
+		13583F352752AF2D0083A99D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13583F342752AF2D0083A99D /* GameViewController.swift */; };
+		13583F372752BCB70083A99D /* ApiCoreMlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13583F362752BCB70083A99D /* ApiCoreMlViewController.swift */; };
+		13583F392752C0610083A99D /* SqueezeNet-2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 13583F382752C0610083A99D /* SqueezeNet-2.mlmodel */; };
+		13850699275AC6140067CEF8 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13850698275AC6140067CEF8 /* PaymentViewController.swift */; };
+		1385CE512753F83400E3954F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1385CE502753F83400E3954F /* User.swift */; };
+		1385CE532753F8FB00E3954F /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1385CE522753F8FB00E3954F /* UserService.swift */; };
+		138D3F0527616D0700583965 /* OCRApiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138D3F0427616D0700583965 /* OCRApiViewController.swift */; };
+		138DD5672755041A000D7A3D /* LevelService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138DD5662755041A000D7A3D /* LevelService.swift */; };
+		138DD569275506A0000D7A3D /* EvaluationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138DD568275506A0000D7A3D /* EvaluationViewController.swift */; };
+		1393C880275FB307001B7D24 /* OCRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1393C87F275FB307001B7D24 /* OCRViewController.swift */; };
+		1393C882275FB685001B7D24 /* OcrService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1393C881275FB685001B7D24 /* OcrService.swift */; };
+		13940F1B275CD9B20055F4F9 /* LevelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13940F1A275CD9B20055F4F9 /* LevelsViewController.swift */; };
+		13DC8AF1274A5BE8008A8382 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC8AF0274A5BE8008A8382 /* SignupViewController.swift */; };
+		13DC8AF5274A5C26008A8382 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC8AF4274A5C26008A8382 /* ProfileViewController.swift */; };
+		4F4404F7275BE70B007F3ACA /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4404F6275BE70B007F3ACA /* Alert.swift */; };
+		4F4404F9275BF41B007F3ACA /* UpdateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4404F8275BF41B007F3ACA /* UpdateProfileViewController.swift */; };
+		943075AC2736744E0063D9CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943075AB2736744E0063D9CC /* AppDelegate.swift */; };
+		943075AE2736744E0063D9CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943075AD2736744E0063D9CC /* SceneDelegate.swift */; };
+		943075B02736744E0063D9CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943075AF2736744E0063D9CC /* ViewController.swift */; };
+		943075B32736744E0063D9CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 943075B12736744E0063D9CC /* Main.storyboard */; };
+		943075B62736744E0063D9CC /* ELearningProjectAbderrahmen_hazem.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 943075B42736744E0063D9CC /* ELearningProjectAbderrahmen_hazem.xcdatamodeld */; };
+		943075B82736744F0063D9CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 943075B72736744F0063D9CC /* Assets.xcassets */; };
+		943075BB2736744F0063D9CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 943075B92736744F0063D9CC /* LaunchScreen.storyboard */; };
+		E5F64EF0E5212C32705FC9D7 /* Pods_ELearningProjectAbderrahmen_hazem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37716C7B47F0856D9B0F6729 /* Pods_ELearningProjectAbderrahmen_hazem.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1029AA042783558B001906ED /* ChangerMdpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangerMdpView.swift; sourceTree = "<group>"; };
+		1029AA052783558B001906ED /* MdpOublieView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MdpOublieView.swift; sourceTree = "<group>"; };
+		1029AA062783558B001906ED /* ConfirmationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmationView.swift; sourceTree = "<group>"; };
+		10A90247277072B0004D82D5 /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		10A9025D27708B30004D82D5 /* Headers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Headers.swift; sourceTree = "<group>"; };
+		10A9025F27711D90004D82D5 /* LanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageViewController.swift; sourceTree = "<group>"; };
+		10A9026127720C27004D82D5 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		10A9026327721285004D82D5 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		10BCB4B92777638800787604 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		1332317A2762C5F60057B75D /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		135423902763A9A300F25873 /* VerifViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifViewController.swift; sourceTree = "<group>"; };
+		13583F342752AF2D0083A99D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		13583F362752BCB70083A99D /* ApiCoreMlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCoreMlViewController.swift; sourceTree = "<group>"; };
+		13583F382752C0610083A99D /* SqueezeNet-2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "SqueezeNet-2.mlmodel"; sourceTree = "<group>"; };
+		13850698275AC6140067CEF8 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		1385CE502753F83400E3954F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1385CE522753F8FB00E3954F /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		138D3F0427616D0700583965 /* OCRApiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRApiViewController.swift; sourceTree = "<group>"; };
+		138DD5662755041A000D7A3D /* LevelService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelService.swift; sourceTree = "<group>"; };
+		138DD568275506A0000D7A3D /* EvaluationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvaluationViewController.swift; sourceTree = "<group>"; };
+		1393C87F275FB307001B7D24 /* OCRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRViewController.swift; sourceTree = "<group>"; };
+		1393C881275FB685001B7D24 /* OcrService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OcrService.swift; sourceTree = "<group>"; };
+		13940F1A275CD9B20055F4F9 /* LevelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsViewController.swift; sourceTree = "<group>"; };
+		13DC8AF0274A5BE8008A8382 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		13DC8AF4274A5C26008A8382 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		37716C7B47F0856D9B0F6729 /* Pods_ELearningProjectAbderrahmen_hazem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ELearningProjectAbderrahmen_hazem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F4404F6275BE70B007F3ACA /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		4F4404F8275BF41B007F3ACA /* UpdateProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateProfileViewController.swift; sourceTree = "<group>"; };
+		943075A82736744E0063D9CC /* ELearningProjectAbderrahmen&hazem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ELearningProjectAbderrahmen&hazem.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		943075AB2736744E0063D9CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		943075AD2736744E0063D9CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		943075AF2736744E0063D9CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		943075B22736744E0063D9CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		943075B52736744E0063D9CC /* ELearningProjectAbderrahmen_hazem.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ELearningProjectAbderrahmen_hazem.xcdatamodel; sourceTree = "<group>"; };
+		943075B72736744F0063D9CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		943075BA2736744F0063D9CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		943075BC2736744F0063D9CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C567CE7D9F5A5EB4BF57A3AA /* Pods-ELearningProjectAbderrahmen&hazem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELearningProjectAbderrahmen&hazem.debug.xcconfig"; path = "Target Support Files/Pods-ELearningProjectAbderrahmen&hazem/Pods-ELearningProjectAbderrahmen&hazem.debug.xcconfig"; sourceTree = "<group>"; };
+		FFD666494E73AD547E5ACF72 /* Pods-ELearningProjectAbderrahmen&hazem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELearningProjectAbderrahmen&hazem.release.xcconfig"; path = "Target Support Files/Pods-ELearningProjectAbderrahmen&hazem/Pods-ELearningProjectAbderrahmen&hazem.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		943075A52736744E0063D9CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5F64EF0E5212C32705FC9D7 /* Pods_ELearningProjectAbderrahmen_hazem.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E853809A7A8AB555B55A329 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C567CE7D9F5A5EB4BF57A3AA /* Pods-ELearningProjectAbderrahmen&hazem.debug.xcconfig */,
+				FFD666494E73AD547E5ACF72 /* Pods-ELearningProjectAbderrahmen&hazem.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4F4404F5275BE6EA007F3ACA /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4F4404F6275BE70B007F3ACA /* Alert.swift */,
+				10A9025D27708B30004D82D5 /* Headers.swift */,
+				10A9026327721285004D82D5 /* ImageLoader.swift */,
+				10BCB4B92777638800787604 /* Reachability.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		941CE662273BD8CE006EDD29 /* Viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				1385CE522753F8FB00E3954F /* UserService.swift */,
+				138DD5662755041A000D7A3D /* LevelService.swift */,
+				1393C881275FB685001B7D24 /* OcrService.swift */,
+			);
+			path = Viewmodel;
+			sourceTree = "<group>";
+		};
+		941CE663273BD8E7006EDD29 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				1385CE502753F83400E3954F /* User.swift */,
+				10A90247277072B0004D82D5 /* Level.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		941CE665273BD936006EDD29 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				135423902763A9A300F25873 /* VerifViewController.swift */,
+				13DC8AF0274A5BE8008A8382 /* SignupViewController.swift */,
+				1029AA042783558B001906ED /* ChangerMdpView.swift */,
+				1029AA062783558B001906ED /* ConfirmationView.swift */,
+				1029AA052783558B001906ED /* MdpOublieView.swift */,
+				943075AF2736744E0063D9CC /* ViewController.swift */,
+				13DC8AF4274A5C26008A8382 /* ProfileViewController.swift */,
+				4F4404F8275BF41B007F3ACA /* UpdateProfileViewController.swift */,
+				13583F342752AF2D0083A99D /* GameViewController.swift */,
+				13583F362752BCB70083A99D /* ApiCoreMlViewController.swift */,
+				13850698275AC6140067CEF8 /* PaymentViewController.swift */,
+				13940F1A275CD9B20055F4F9 /* LevelsViewController.swift */,
+				138DD568275506A0000D7A3D /* EvaluationViewController.swift */,
+				1393C87F275FB307001B7D24 /* OCRViewController.swift */,
+				138D3F0427616D0700583965 /* OCRApiViewController.swift */,
+				1332317A2762C5F60057B75D /* ResetPasswordViewController.swift */,
+				10A9025F27711D90004D82D5 /* LanguageViewController.swift */,
+				10A9026127720C27004D82D5 /* SettingsViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		9430759F2736744E0063D9CC = {
+			isa = PBXGroup;
+			children = (
+				943075AA2736744E0063D9CC /* ELearningProjectAbderrahmen&hazem */,
+				943075A92736744E0063D9CC /* Products */,
+				2E853809A7A8AB555B55A329 /* Pods */,
+				A4BCD8B9C2ECC2647122CFD2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		943075A92736744E0063D9CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				943075A82736744E0063D9CC /* ELearningProjectAbderrahmen&hazem.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		943075AA2736744E0063D9CC /* ELearningProjectAbderrahmen&hazem */ = {
+			isa = PBXGroup;
+			children = (
+				943075AB2736744E0063D9CC /* AppDelegate.swift */,
+				943075AD2736744E0063D9CC /* SceneDelegate.swift */,
+				4F4404F5275BE6EA007F3ACA /* Utilities */,
+				941CE663273BD8E7006EDD29 /* models */,
+				941CE662273BD8CE006EDD29 /* Viewmodel */,
+				941CE665273BD936006EDD29 /* ViewController */,
+				943075B12736744E0063D9CC /* Main.storyboard */,
+				943075B92736744F0063D9CC /* LaunchScreen.storyboard */,
+				943075B72736744F0063D9CC /* Assets.xcassets */,
+				13583F382752C0610083A99D /* SqueezeNet-2.mlmodel */,
+				943075BC2736744F0063D9CC /* Info.plist */,
+				943075B42736744E0063D9CC /* ELearningProjectAbderrahmen_hazem.xcdatamodeld */,
+			);
+			path = "ELearningProjectAbderrahmen&hazem";
+			sourceTree = "<group>";
+		};
+		A4BCD8B9C2ECC2647122CFD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37716C7B47F0856D9B0F6729 /* Pods_ELearningProjectAbderrahmen_hazem.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		943075A72736744E0063D9CC /* ELearningProjectAbderrahmen&hazem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 943075BF2736744F0063D9CC /* Build configuration list for PBXNativeTarget "ELearningProjectAbderrahmen&hazem" */;
+			buildPhases = (
+				C23BC3E9DA340FAC789B59C7 /* [CP] Check Pods Manifest.lock */,
+				943075A42736744E0063D9CC /* Sources */,
+				943075A52736744E0063D9CC /* Frameworks */,
+				943075A62736744E0063D9CC /* Resources */,
+				4D10836BA9D017B50B3492EC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ELearningProjectAbderrahmen&hazem";
+			productName = "ELearningProjectAbderrahmen&hazem";
+			productReference = 943075A82736744E0063D9CC /* ELearningProjectAbderrahmen&hazem.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		943075A02736744E0063D9CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					943075A72736744E0063D9CC = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 943075A32736744E0063D9CC /* Build configuration list for PBXProject "ELearningProjectAbderrahmen&hazem" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9430759F2736744E0063D9CC;
+			productRefGroup = 943075A92736744E0063D9CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				943075A72736744E0063D9CC /* ELearningProjectAbderrahmen&hazem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		943075A62736744E0063D9CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943075BB2736744F0063D9CC /* LaunchScreen.storyboard in Resources */,
+				943075B82736744F0063D9CC /* Assets.xcassets in Resources */,
+				943075B32736744E0063D9CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D10836BA9D017B50B3492EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ELearningProjectAbderrahmen&hazem/Pods-ELearningProjectAbderrahmen&hazem-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ELearningProjectAbderrahmen&hazem/Pods-ELearningProjectAbderrahmen&hazem-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ELearningProjectAbderrahmen&hazem/Pods-ELearningProjectAbderrahmen&hazem-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C23BC3E9DA340FAC789B59C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ELearningProjectAbderrahmen&hazem-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		943075A42736744E0063D9CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				138D3F0527616D0700583965 /* OCRApiViewController.swift in Sources */,
+				138DD569275506A0000D7A3D /* EvaluationViewController.swift in Sources */,
+				13DC8AF5274A5C26008A8382 /* ProfileViewController.swift in Sources */,
+				1332317B2762C5F60057B75D /* ResetPasswordViewController.swift in Sources */,
+				943075B02736744E0063D9CC /* ViewController.swift in Sources */,
+				10A9026427721285004D82D5 /* ImageLoader.swift in Sources */,
+				1385CE512753F83400E3954F /* User.swift in Sources */,
+				943075AC2736744E0063D9CC /* AppDelegate.swift in Sources */,
+				138DD5672755041A000D7A3D /* LevelService.swift in Sources */,
+				10BCB4BA2777638800787604 /* Reachability.swift in Sources */,
+				10A9026027711D90004D82D5 /* LanguageViewController.swift in Sources */,
+				10A9025E27708B30004D82D5 /* Headers.swift in Sources */,
+				13850699275AC6140067CEF8 /* PaymentViewController.swift in Sources */,
+				10A90248277072B0004D82D5 /* Level.swift in Sources */,
+				13583F372752BCB70083A99D /* ApiCoreMlViewController.swift in Sources */,
+				1029AA092783558B001906ED /* ConfirmationView.swift in Sources */,
+				13940F1B275CD9B20055F4F9 /* LevelsViewController.swift in Sources */,
+				1385CE532753F8FB00E3954F /* UserService.swift in Sources */,
+				13583F392752C0610083A99D /* SqueezeNet-2.mlmodel in Sources */,
+				13DC8AF1274A5BE8008A8382 /* SignupViewController.swift in Sources */,
+				4F4404F9275BF41B007F3ACA /* UpdateProfileViewController.swift in Sources */,
+				1393C882275FB685001B7D24 /* OcrService.swift in Sources */,
+				1393C880275FB307001B7D24 /* OCRViewController.swift in Sources */,
+				13583F352752AF2D0083A99D /* GameViewController.swift in Sources */,
+				943075AE2736744E0063D9CC /* SceneDelegate.swift in Sources */,
+				1029AA082783558B001906ED /* MdpOublieView.swift in Sources */,
+				4F4404F7275BE70B007F3ACA /* Alert.swift in Sources */,
+				10A9026227720C27004D82D5 /* SettingsViewController.swift in Sources */,
+				943075B62736744E0063D9CC /* ELearningProjectAbderrahmen_hazem.xcdatamodeld in Sources */,
+				1029AA072783558B001906ED /* ChangerMdpView.swift in Sources */,
+				135423912763A9A300F25873 /* VerifViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		943075B12736744E0063D9CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				943075B22736744E0063D9CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		943075B92736744F0063D9CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				943075BA2736744F0063D9CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		943075BD2736744F0063D9CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		943075BE2736744F0063D9CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = x86_64;
+			};
+			name = Release;
+		};
+		943075C02736744F0063D9CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C567CE7D9F5A5EB4BF57A3AA /* Pods-ELearningProjectAbderrahmen&hazem.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 953V584L2D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ELearningProjectAbderrahmen&hazem/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = iLearn;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Utiliser l'appareil photo pour prendre une photo";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ESPRIT.TN.ELearningProjectAbderrahmen-hazem";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		943075C12736744F0063D9CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFD666494E73AD547E5ACF72 /* Pods-ELearningProjectAbderrahmen&hazem.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 953V584L2D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ELearningProjectAbderrahmen&hazem/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = iLearn;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Utiliser l'appareil photo pour prendre une photo";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ESPRIT.TN.ELearningProjectAbderrahmen-hazem";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		943075A32736744E0063D9CC /* Build configuration list for PBXProject "ELearningProjectAbderrahmen&hazem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				943075BD2736744F0063D9CC /* Debug */,
+				943075BE2736744F0063D9CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		943075BF2736744F0063D9CC /* Build configuration list for PBXNativeTarget "ELearningProjectAbderrahmen&hazem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				943075C02736744F0063D9CC /* Debug */,
+				943075C12736744F0063D9CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		943075B42736744E0063D9CC /* ELearningProjectAbderrahmen_hazem.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				943075B52736744E0063D9CC /* ELearningProjectAbderrahmen_hazem.xcdatamodel */,
+			);
+			currentVersion = 943075B52736744E0063D9CC /* ELearningProjectAbderrahmen_hazem.xcdatamodel */;
+			path = ELearningProjectAbderrahmen_hazem.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 943075A02736744E0063D9CC /* Project object */;
+}
