@@ -43,7 +43,7 @@ How to run the program
 Download The project from GitHub
 run pod install on terminal
 open xcworkspace
-#pod install
+- pod install
 
 
 
