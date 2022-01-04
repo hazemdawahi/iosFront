@@ -41,7 +41,6 @@
 		943075B62736744E0063D9CC /* ELearningProjectAbderrahmen_hazem.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 943075B42736744E0063D9CC /* ELearningProjectAbderrahmen_hazem.xcdatamodeld */; };
 		943075B82736744F0063D9CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 943075B72736744F0063D9CC /* Assets.xcassets */; };
 		943075BB2736744F0063D9CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 943075B92736744F0063D9CC /* LaunchScreen.storyboard */; };
-		E5F64EF0E5212C32705FC9D7 /* Pods_ELearningProjectAbderrahmen_hazem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37716C7B47F0856D9B0F6729 /* Pods_ELearningProjectAbderrahmen_hazem.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,7 +69,6 @@
 		13940F1A275CD9B20055F4F9 /* LevelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsViewController.swift; sourceTree = "<group>"; };
 		13DC8AF0274A5BE8008A8382 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		13DC8AF4274A5C26008A8382 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		37716C7B47F0856D9B0F6729 /* Pods_ELearningProjectAbderrahmen_hazem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ELearningProjectAbderrahmen_hazem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F4404F6275BE70B007F3ACA /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		4F4404F8275BF41B007F3ACA /* UpdateProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateProfileViewController.swift; sourceTree = "<group>"; };
 		943075A82736744E0063D9CC /* ELearningProjectAbderrahmen&hazem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ELearningProjectAbderrahmen&hazem.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,7 +89,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5F64EF0E5212C32705FC9D7 /* Pods_ELearningProjectAbderrahmen_hazem.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,7 +199,6 @@
 		A4BCD8B9C2ECC2647122CFD2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				37716C7B47F0856D9B0F6729 /* Pods_ELearningProjectAbderrahmen_hazem.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
