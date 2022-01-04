@@ -154,7 +154,6 @@
 				138D3F0427616D0700583965 /* OCRApiViewController.swift */,
 				1332317A2762C5F60057B75D /* ResetPasswordViewController.swift */,
 				10A9025F27711D90004D82D5 /* LanguageViewController.swift */,
-				10A9026127720C27004D82D5 /* SettingsViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -190,6 +189,7 @@
 				943075B92736744F0063D9CC /* LaunchScreen.storyboard */,
 				943075B72736744F0063D9CC /* Assets.xcassets */,
 				13583F382752C0610083A99D /* SqueezeNet-2.mlmodel */,
+				10A9026127720C27004D82D5 /* SettingsViewController.swift */,
 				943075BC2736744F0063D9CC /* Info.plist */,
 				943075B42736744E0063D9CC /* ELearningProjectAbderrahmen_hazem.xcdatamodeld */,
 			);
@@ -411,7 +411,6 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -433,7 +432,6 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				VALID_ARCHS = x86_64;
 			};
 			name = Debug;
 		};
@@ -489,7 +487,6 @@
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
-				VALID_ARCHS = x86_64;
 			};
 			name = Release;
 		};
@@ -532,7 +529,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 953V584L2D;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "ELearningProjectAbderrahmen&hazem/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = iLearn;
