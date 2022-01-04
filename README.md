@@ -2,7 +2,7 @@
 
 ![Logo](https://user-images.githubusercontent.com/47859310/148080735-3c46288e-faf8-4aea-b991-ab5abd28bd68.png)
 
-<img alt="Ilearn">
+< alt="Ilearn">
 
 
 ## Contents
