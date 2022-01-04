@@ -1,7 +1,7 @@
 # IosProject 
 
-<img width="500" height="350" src="Bureau/logo.png" alt="Ilearn">
-![CHEESE!](Bureau/logo.png)
+<img width="500" height="350" src="../logo.png" alt="Ilearn">
+![CHEESE!](../logo.png)
 
 ## Contents
 
