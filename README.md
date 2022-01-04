@@ -28,21 +28,21 @@ We use architecture MVVM for our app . In most of our application, we have a vie
 
 <p align="center"> <a href="MVVM.md">Architecture : " Dependencies " </a>&nbsp;&nbsp;&nbsp; </p>
 
-IOS 10
+- IOS 10
 
 <p align="center"> <a href="MVVM.md">Architecture : " Installing " </a>&nbsp;&nbsp;&nbsp; </p>
 
-Install CocoaPods
-Imported Frameworks : RealityKit, ARKIT, GIDSignIn
-Xcode 13
-Any modifications needed to be made to files/folders
+- Install CocoaPods
+- Imported Frameworks 
+- Xcode 13
+- Any modifications needed to be made to files/folders
 
 <p align="center"> <a href="MVVM.md">Architecture : " Executing program " </a>&nbsp;&nbsp;&nbsp; </p>
 
-How to run the program
-Download The project from GitHub
-run pod install on terminal
-open xcworkspace
+- How to run the program
+- Download The project from GitHub
+- run pod install on terminal
+- open xcworkspace
 - pod install
 
 
