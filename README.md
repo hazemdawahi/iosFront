@@ -7,6 +7,7 @@
 
 
 - [Front-End Development](#front-end-development)
+- [Getting Started](#Getting-Started)
 
 
 
@@ -23,8 +24,26 @@ We use technology swift for our app . Swift is a powerful and intuitive programm
 
 We use architecture MVVM for our app . In most of our application, we have a view controller (UI) which needs to fetch data from the server(API) and need to display it in the UI. We will implement the same behavior using the MVVM Pattern.
 
+## Getting Started
 
+<p align="center"> <a href="MVVM.md">Architecture : " Dependencies " </a>&nbsp;&nbsp;&nbsp; </p>
 
+IOS 10
+
+<p align="center"> <a href="MVVM.md">Architecture : " Installing " </a>&nbsp;&nbsp;&nbsp; </p>
+
+Install CocoaPods
+Imported Frameworks : RealityKit, ARKIT, GIDSignIn
+Xcode 13
+Any modifications needed to be made to files/folders
+
+<p align="center"> <a href="MVVM.md">Architecture : " Executing program " </a>&nbsp;&nbsp;&nbsp; </p>
+
+How to run the program
+Download The project from GitHub
+run pod install on terminal
+open xcworkspace
+#pod install
 
 
 
